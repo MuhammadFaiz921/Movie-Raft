@@ -31,18 +31,8 @@
   color: #999;
   font-size: 1.2rem;
   line-height: 1.6;
+
 }
-
-.favorites .favorites-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 1.5rem;
-  padding: 1rem;
-  width: 100%;
-  box-sizing: border-box;
-}
-
-
 
 
 @media (max-width: 639px) {
@@ -72,4 +62,11 @@
   animation: fadeIn 0.3s ease-out forwards;
   
 }
-
+.favorites .favorites-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+  padding: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+}
