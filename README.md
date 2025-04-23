@@ -47,7 +47,7 @@ npm run dev
 
 ## 🧪 Demo
 
-[Live Preview](https://your-live-app-link.com)
+[Live Preview](https://movie-raft.vercel.app/)
 
 ---
 
